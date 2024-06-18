@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form.php" method="post">
+        <div id="corpo">
+            <fieldset>
+                <legend>Escolha opção Desejada</legend>
+                <div>
+                    <input type="radio" id="opc" name="opc" value="1">
+                    <label for="somar">Somar</label>
+                    <input type="radio" id="opc" name="opc" value="2">
+                    <label for="subtrair">Subtrair</label>
+                    <input type="radio" id="opc" name="opc" value="3">
+                    <label for="dividir">Dividir</label>
+                    <input type="radio" id="opc" name="opc" value="4">
+                    <label for="multiplicar">Multiplicar</label>
+                </div>
+                <div style="margin: 10px;">
+                    <label for="n1">Número 1:</label>
+                    <input type="number"  name="n1" id="n1" required>
+                    <label for="n2">Número 2:</label>
+                    <input type="number" name="n2" id="n2">
+                </div>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
