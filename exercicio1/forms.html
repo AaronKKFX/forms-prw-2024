@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form.php" method="post">
+        <div id="corpo">
+            <fieldset>
+                <legend>Tempo Viagem</legend>
+                <div style="margin: 10px;">
+                    <label for="velocidade">Velocidade Média(Km/h):</label>
+                    <input type="number" step="0.01" name="velocidade" id="velocidade" required>
+                    <label for="distancia">Distância(Km):</label>
+                    <input type="number" step="0.01" name="distancia" id="distancia">
+                </div>
+                <div style="margin: 10px;">
+                    <label for="consumo">Consumo Médio(Km/L):</label>
+                    <input type="number" step="0.01" name="consumo" id="consumo">
+                </div>
+                
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
