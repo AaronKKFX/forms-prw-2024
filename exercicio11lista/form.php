@@ -58,10 +58,10 @@ elseif(strtoupper($per) =='N')
 }
 else
 {
-    '<h3>Perído:</h3>';
+    echo'<h3>Perído:</h3>';
     echo'<span style="color:red">Escolha um período valido!!(V ou N)</span><br>';
 }
-if($m <1 && $m >4)
+if($m <1 or $m >4)
 {
     echo '<h3>Módulo:</h3>';
     echo'<span style="color:red">Digite um Módulo Valido</span>';
